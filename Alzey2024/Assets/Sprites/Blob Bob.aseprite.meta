@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: aa93a6ddcc331c242928f040def2c560
+guid: 3a5e7614e6393ec4b84457cfed9e7a15
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,9 +121,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: RewindButton_Frame_0
+  - name: Frame_0
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -0.3}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -131,8 +131,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 16
-      height: 16
-    spriteID: e0f7a4945f455a943be8f6c38a8e9a2f
+      height: 10
+    spriteID: a5b297a7df3e3ff49b5aa68e114ff999
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,18 +141,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: RewindButton_Frame_1
+  - name: Frame_1
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -0.3}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 28
+      y: 22
       width: 16
-      height: 16
-    spriteID: 35d6f84a0867bdd40a93b39d936f08fc
+      height: 10
+    spriteID: cdcd02716093b3c49856e7076ba8fc39
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -160,32 +160,12 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 28}
-  - name: RewindButton_Frame_2
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 28
-      y: 4
-      width: 16
-      height: 16
-    spriteID: acb9a4e5bb06e924aa68498ffd59f0b9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 28, y: 4}
+    uvTransform: {x: 4, y: 22}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 220017101
-    name: RewindButton
+    guid: 249009862
+    name: Blob Bob
     layerFlags: 0
     layerType: 0
     blendMode: 0
@@ -195,31 +175,34 @@ ScriptedImporter:
       additiveSortOrder: 0
       cellRect:
         x: 0
-        y: 0
+        y: 3
         width: 16
-        height: 16
-      spriteId: e0f7a4945f455a943be8f6c38a8e9a2f
+        height: 10
+      spriteId: a5b297a7df3e3ff49b5aa68e114ff999
     - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
         x: 0
-        y: 0
+        y: 3
         width: 16
-        height: 16
-      spriteId: 35d6f84a0867bdd40a93b39d936f08fc
-    - name: Frame_2
-      frameIndex: 2
-      additiveSortOrder: 0
-      cellRect:
-        x: 0
-        y: 0
-        width: 16
-        height: 16
-      spriteId: acb9a4e5bb06e924aa68498ffd59f0b9
+        height: 10
+      spriteId: cdcd02716093b3c49856e7076ba8fc39
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: Default
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
