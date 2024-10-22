@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2b049bf4c155797469b7410bbee58a5f
+guid: 821f9edb8ed08cc4490a7fac0da6303c
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Boden
+  - name: Fish
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5769231, y: -0.125}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 160
-      height: 160
-    spriteID: 5b50d412117a2dc449e99753314b6dce
+      width: 26
+      height: 24
+    spriteID: 27c35d002d8797046b91deda1fb22bc2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,21 +144,21 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 272039384
-    name: Boden
+    guid: -874510828
+    name: Fish
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Boden
+    - name: Fish
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 160
-        height: 160
-      spriteId: 5b50d412117a2dc449e99753314b6dce
+        x: 1
+        y: 3
+        width: 26
+        height: 24
+      spriteId: 27c35d002d8797046b91deda1fb22bc2
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -177,4 +177,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 160, y: 160}
+  canvasSize: {x: 32, y: 32}
