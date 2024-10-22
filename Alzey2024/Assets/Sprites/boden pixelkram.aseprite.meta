@@ -123,15 +123,15 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: boden pixelkram
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.6, y: -0.11111112}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 192
-      height: 190
+      width: 160
+      height: 288
     spriteID: 6950470e3a6b109488b8afd091197b8d
     spriteBone: []
     spriteOutline: []
@@ -154,10 +154,10 @@ ScriptedImporter:
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 192
-        height: 190
+        x: 64
+        y: 32
+        width: 160
+        height: 288
       spriteId: 6950470e3a6b109488b8afd091197b8d
     linkedCells: []
     parentIndex: -1
@@ -177,4 +177,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 192, y: 192}
+  canvasSize: {x: 320, y: 320}
