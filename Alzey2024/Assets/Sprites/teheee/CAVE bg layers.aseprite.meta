@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7401df04a3631e6429b6b9de37075389
+guid: 57365fdcce93a8441a1f93f6ce6dec2a
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Sprite-0001
+  - name: CAVE bg layers
     originalName: 
-    pivot: {x: 0.53846157, y: 0}
+    pivot: {x: 0.5530726, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 13
-      height: 15
-    spriteID: 60224458b74ab184c893be974da3df54
+      width: 358
+      height: 186
+    spriteID: f60d01181308ee344a6c750d56844a81
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,21 +144,21 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -572921211
-    name: Sprite-0001
+    guid: 248172324
+    name: CAVE bg layers
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Sprite-0001
+    - name: CAVE bg layers
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 1
+        x: -38
         y: 0
-        width: 13
-        height: 15
-      spriteId: 60224458b74ab184c893be974da3df54
+        width: 358
+        height: 186
+      spriteId: f60d01181308ee344a6c750d56844a81
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -177,4 +177,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 16, y: 16}
+  canvasSize: {x: 320, y: 180}
