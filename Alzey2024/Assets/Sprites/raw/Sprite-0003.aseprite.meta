@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9de278307919c394c81dd467adb86dea
+guid: 244247e2735460f4ea0f20e8dfe5ca91
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Sprite-0001
+  - name: Sprite-0003
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 1, y: -0.0969697}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 320
-      height: 180
-    spriteID: 28f0347f336300a4cac641a9c200e567
+      width: 81
+      height: 165
+    spriteID: d35bfa264785fba448d182a184f7afff
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,21 +144,21 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -572921211
-    name: Sprite-0001
+    guid: -572920417
+    name: Sprite-0003
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Sprite-0001
+    - name: Sprite-0003
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 320
-        height: 180
-      spriteId: 28f0347f336300a4cac641a9c200e567
+        x: -1
+        y: 16
+        width: 81
+        height: 165
+      spriteId: d35bfa264785fba448d182a184f7afff
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -177,4 +177,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 320, y: 180}
+  canvasSize: {x: 160, y: 160}
