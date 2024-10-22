@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 28089c5e4d48a91469df999438eeea83
+guid: db20c15a2bd714c499e81256df0e4c34
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: backround water pixel
+  - name: Frame_0
     originalName: 
-    pivot: {x: 1.6666666, y: -8}
+    pivot: {x: 0.53846157, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 96
+      width: 26
       height: 32
-    spriteID: 923a491d0dbca2540bc3b051597d5e73
+    spriteID: a00efe085f694694ab860e413e79e9cf
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,24 +141,82 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: Frame_1
+    originalName: 
+    pivot: {x: 0.53846157, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 44
+      width: 26
+      height: 32
+    spriteID: f387ae58131c1fd42a0fbe87bbb35a5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 44}
+  - name: Frame_2
+    originalName: 
+    pivot: {x: 0.53846157, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 84
+      width: 26
+      height: 30
+    spriteID: 0bb5b108c386eb040acde79ef553790f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 84}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 950666832
-    name: backround water pixel
+    guid: 358641757
+    name: fish 32 orange
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: backround water pixel
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 256
-        width: 96
+        x: 2
+        y: 0
+        width: 26
         height: 32
-      spriteId: 923a491d0dbca2540bc3b051597d5e73
+      spriteId: a00efe085f694694ab860e413e79e9cf
+    - name: Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 2
+        y: 0
+        width: 26
+        height: 32
+      spriteId: f387ae58131c1fd42a0fbe87bbb35a5f
+    - name: Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 2
+        y: 0
+        width: 26
+        height: 30
+      spriteId: 0bb5b108c386eb040acde79ef553790f
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -177,4 +235,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 320, y: 320}
+  canvasSize: {x: 32, y: 32}
