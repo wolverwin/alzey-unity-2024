@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dcf28076278fcff438c025e01e052d2c
+guid: b61eadb4b6db0a048934ae7442137e78
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Hexe
+  - name: Sprite-0001
     originalName: 
-    pivot: {x: 0.46428573, y: 0}
+    pivot: {x: 0.54545456, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 28
-      height: 32
-    spriteID: 6389b085a0f8d1b4fa31d29e28bf83e7
+      width: 11
+      height: 16
+    spriteID: 3fa2850ea9e87364ab4502d8ddbe5365
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,21 +144,21 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 368148150
-    name: Hexe
+    guid: -572921211
+    name: Sprite-0001
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Hexe
+    - name: Sprite-0001
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 3
+        x: 2
         y: 0
-        width: 28
-        height: 32
-      spriteId: 6389b085a0f8d1b4fa31d29e28bf83e7
+        width: 11
+        height: 16
+      spriteId: 3fa2850ea9e87364ab4502d8ddbe5365
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -177,4 +177,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 32, y: 32}
+  canvasSize: {x: 16, y: 16}

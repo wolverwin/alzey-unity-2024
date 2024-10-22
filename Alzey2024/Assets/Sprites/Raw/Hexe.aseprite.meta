@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 736c1548ac3878b468f627dfbba6cd31
+guid: d1924b2a17bb7604a8ddf4b5380f642e
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Platformen
+  - name: Hexe
     originalName: 
-    pivot: {x: 5, y: -9}
+    pivot: {x: 0.46428573, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 32
+      width: 28
       height: 32
-    spriteID: c805fa336415b2f49a4a79109b7604f6
+    spriteID: 3ced0e00e1b3d1b4095297c2788c2f04
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,21 +144,21 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1822099026
-    name: Platformen
+    guid: 368148150
+    name: Hexe
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Platformen
+    - name: Hexe
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 288
-        width: 32
+        x: 3
+        y: 0
+        width: 28
         height: 32
-      spriteId: c805fa336415b2f49a4a79109b7604f6
+      spriteId: 3ced0e00e1b3d1b4095297c2788c2f04
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -177,4 +177,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 320, y: 320}
+  canvasSize: {x: 32, y: 32}
