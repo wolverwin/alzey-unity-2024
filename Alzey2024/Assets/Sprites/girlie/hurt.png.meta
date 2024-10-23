@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6a73aae849e1e3641b0f4b70c59a363a
+guid: abc0eb9f022285a4eb478a693fcc0fe7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,259 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boden_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c7a301824c867a43a012fd171a9213c
-      internalID: 891171272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boden_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b55e0c193eec8b43b377727542af29f
-      internalID: 1924586243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boden_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1ce5a458b2bfba428c37b1c1144e1ff
-      internalID: 1451866258
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boden_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac16d4b4d37790743963243a95015c21
-      internalID: -288755783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boden_4
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0b2395290bfacb4c93f2f5fd6a8e3fd
-      internalID: -1842307826
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boden_5
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b225fdf48b78718479f6ac6de8e72c23
-      internalID: 21088386
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boden_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b65a562b01383f4cad16a9455b99ee6
-      internalID: 1402116137
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boden_7
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b71b1e83c622c243ae72ab0816180c1
-      internalID: -1430484780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boden_8
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05fcec9eec2349a4a82b62b1599cdc65
-      internalID: -2127209783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boden_9
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ba287f40982f3c40a1870d2cb8610aa
-      internalID: 449954307
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boden_10
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d488d2dc6075d294f9d161b7c09719cb
-      internalID: -865443456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boden_11
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a51f043b1ecb52469a24b2b7129b886
-      internalID: 1832137655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boden_12
+      name: hurt_0
       rect:
         serializedVersion: 2
         x: 0
@@ -363,14 +111,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f474957fed0bfa48b4d34d7192fd5bc
-      internalID: -2073395205
+      spriteID: 99057205d4b5d804a9f3374b1c612192
+      internalID: 1354657419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boden_13
+      name: hurt_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe1e41d7925fdb438933f0fd958a03c
+      internalID: 1785689388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurt_2
       rect:
         serializedVersion: 2
         x: 64
@@ -384,14 +153,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 915c892cb7b177043a0e37ace3fbf14f
-      internalID: -1264873729
+      spriteID: 39dcaabf1d4d78f4ea4e109c5b74db4c
+      internalID: 392906485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boden_14
+      name: hurt_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f4ac2f5cb74214487b451aa3ee2c8d
+      internalID: 1814109680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurt_4
       rect:
         serializedVersion: 2
         x: 128
@@ -405,8 +195,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40b3d54b87fb49c478f9a89d9ba88c87
-      internalID: 1775873958
+      spriteID: 9b4d08bdb43f77b46a96d00a0e08bcfd
+      internalID: 1621808208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurt_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0e20e47caf3884482115c7bdfc856e
+      internalID: 1666118731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurt_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da507dd4ca968348949f4d8db5c06b7
+      internalID: -20118328
       vertices: []
       indices: 
       edges: []
@@ -422,21 +254,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      boden_0: 891171272
-      boden_1: 1924586243
-      boden_10: -865443456
-      boden_11: 1832137655
-      boden_12: -2073395205
-      boden_13: -1264873729
-      boden_14: 1775873958
-      boden_2: 1451866258
-      boden_3: -288755783
-      boden_4: -1842307826
-      boden_5: 21088386
-      boden_6: 1402116137
-      boden_7: -1430484780
-      boden_8: -2127209783
-      boden_9: 449954307
+      hurt_0: 1354657419
+      hurt_1: 1785689388
+      hurt_2: 392906485
+      hurt_3: 1814109680
+      hurt_4: 1621808208
+      hurt_5: 1666118731
+      hurt_6: -20118328
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
