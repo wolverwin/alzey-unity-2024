@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 557f6f6a9144c354d82636b2634d2d28
+guid: 1ca5a4c0e244e00418c7c55a49a16d5d
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,9 +121,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Boden2
+  - name: noch mehr boden
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -0.33333334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -131,8 +131,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 160
-      height: 160
-    spriteID: 664c70434f43fa84ea2a55c76351d61e
+      height: 96
+    spriteID: 84306dbf6937a5e40a2618eefe73ce1e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,21 +144,21 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -814346586
-    name: Boden2
+    guid: -1322522760
+    name: noch mehr boden
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Boden2
+    - name: noch mehr boden
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 0
-        y: 0
+        y: 32
         width: 160
-        height: 160
-      spriteId: 664c70434f43fa84ea2a55c76351d61e
+        height: 96
+      spriteId: 84306dbf6937a5e40a2618eefe73ce1e
     linkedCells: []
     parentIndex: -1
   platformSettings:

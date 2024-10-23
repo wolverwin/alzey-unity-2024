@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 557f6f6a9144c354d82636b2634d2d28
+guid: bad1bce8554f8204586e3f253641c5da
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Boden2
+  - name: boden 35
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 160
       height: 160
-    spriteID: 664c70434f43fa84ea2a55c76351d61e
+    spriteID: 2ebfea409b87327439c006a80e28f209
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,13 +144,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -814346586
-    name: Boden2
+    guid: -1687978496
+    name: boden 35
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Boden2
+    - name: boden 35
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -158,7 +158,7 @@ ScriptedImporter:
         y: 0
         width: 160
         height: 160
-      spriteId: 664c70434f43fa84ea2a55c76351d61e
+      spriteId: 2ebfea409b87327439c006a80e28f209
     linkedCells: []
     parentIndex: -1
   platformSettings:
