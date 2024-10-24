@@ -1,4 +1,5 @@
 using Manager;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Player {
@@ -16,9 +17,21 @@ namespace Player {
 
         [SerializeField, Range(0, 1)]
         private float invincibleAlpha = 0.5f;
+
+        [SerializeField]
+        private bool useSleepAnimation;
+
+        [SerializeField, Tooltip("Time until sleep animation is played")]
+        private float sleepTimer = 2.5f;
+
+        private GameManager gameManager;
         private float initialAlpha;
+        private float timeUntilSleep;
+
+        private const float VELOCITY_MIN = 0.01f;
 
         private void Start() {
+            gameManager = GameManager.Instance;
             initialAlpha = spriteRenderer.color.a;
 
             EventManager.OnPlayerHurt += TriggerHurtAnimation;
@@ -26,10 +39,26 @@ namespace Player {
             EventManager.OnPlayerInvincible += OnPlayerInvincible;
             EventManager.OnPlayerNotInvincible += OnPlayerNotInvincible;
             EventManager.OnPlayerDied += OnPlayerDied;
+            EventManager.OnJumpAnticipation += OnJumpAnticipation;
+            EventManager.OnJumpExecuted += OnJumpExecuted;
         }
 
         private void Update() {
-            animator.SetFloat("Speed", Mathf.Abs(body.velocity.x));
+            Vector2 velocity = body.velocity;
+
+            if (!useSleepAnimation || ((velocity.x > VELOCITY_MIN || velocity.x < -VELOCITY_MIN) || (velocity.y > VELOCITY_MIN || velocity.y < -VELOCITY_MIN))) {
+                timeUntilSleep = 0;
+            } else {
+                timeUntilSleep += Time.deltaTime;
+            }
+
+            if (timeUntilSleep >= sleepTimer) {
+                animator.SetBool("Sleep", true);
+                return;
+            }
+
+            animator.SetBool("Sleep", false);
+            animator.SetFloat("Speed", Mathf.Abs(velocity.x));
 
             bool isJumping = false;
             bool isFalling = false;
@@ -44,7 +73,7 @@ namespace Player {
             animator.SetBool("Falling", isFalling);
         }
 
-        private void TriggerHurtAnimation(Vector3 source) {
+        private void TriggerHurtAnimation(GameObject source) {
             animator.SetBool("Hurt", true);
         }
 
@@ -64,8 +93,20 @@ namespace Player {
             spriteRenderer.color = spriteColor;
         }
 
+        private void OnJumpAnticipation() {
+            animator.SetBool("AnticipateJump", true);
+        }
+
+        private void OnJumpExecuted() {
+            animator.SetBool("AnticipateJump", false);
+        }
+
         private void OnPlayerDied() {
             animator.SetBool("Die", true);
+        }
+
+        private void OnDeathAnimationFinished() {
+            gameManager.EndGameAfterAnimation();
         }
     }
 }

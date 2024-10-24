@@ -14,17 +14,20 @@ namespace Manager {
             OnCharacterFlip = null;
             OnRequirementsFulfilled = null;
             OnPlayerDied = null;
+            OnJumpAnticipation = null;
+            OnJumpExecuted = null;
+
         }
 
         /// <summary>
         /// Event triggered when the Player gets hurt
         /// </summary>
-        public static event Action<Vector3> OnPlayerHurt;
+        public static event Action<GameObject> OnPlayerHurt;
 
         /// <summary>
         /// Invokes the OnPlayerHurt event
         /// </summary>
-        public static void InvokeOnPlayerHurt(Vector3 source) {
+        public static void InvokeOnPlayerHurt(GameObject source) {
             OnPlayerHurt?.Invoke(source);
         }
 
@@ -84,6 +87,26 @@ namespace Manager {
         /// </summary>
         public static void InvokeOnPlayerDied() {
             OnPlayerDied?.Invoke();
+        }
+
+        public static event Action OnJumpAnticipation;
+
+        /// <summary>
+        /// Invokes the OnJumpAnticipation event
+        /// </summary>
+        public static void InvokeOnJumpAnticipation()
+        {
+            OnJumpAnticipation?.Invoke();
+        }
+
+        public static event Action OnJumpExecuted;
+
+        /// <summary>
+        /// Invokes the OnJumpExecuted event
+        /// </summary>
+        public static void InvokeOnJumpExecuted()
+        {
+            OnJumpExecuted?.Invoke();
         }
     }
 }
